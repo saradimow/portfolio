@@ -1,0 +1,553 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+figure {
+  margin: 0;
+}
+section {
+  background-size: auto;
+}
+
+/*Menyn*/
+li {
+  display: block;
+  font-family: 'Univers Condensed', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  transition: .5s;
+  list-style-type: none;
+}
+.navbar {
+  /*overflow: hidden;*/
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  z-index: 10000;
+  background-color: #00AFAA;
+  opacity: 70%;
+  padding: 10px;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  float:right;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: -10px;
+  padding: 18px;
+  padding-top: 0px;
+  font-family: monospace;
+  /*position: static;*/
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+
+/*Startsection*/
+#start {
+  background-image: url("images/background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 790px;
+
+}
+.boxstart{
+  width: 550px;
+  height: 4px;
+  background-color: #50d0c3;
+  margin: auto;
+  margin-top: -58px;
+}
+
+
+
+.text {
+  text-align: center;
+  border-color: #50d0c3;
+  padding-top: 260px;
+  /*height: 800px;*/
+}
+
+
+/*Projektsidan*/
+#projects {
+  height: 1000px;
+}
+.projtitel{
+  padding-top: 40px;
+}
+
+.boxproj1{
+  background-color: #00AFAA;
+  width: 566px;
+  height: 365px;
+
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.boxproj1 img {
+  margin-left: 7px;
+  margin-top: 7px;
+}
+.proj1text{
+  width: 400px;
+  float:right;
+  margin-top: -250px;
+  margin-right: 260px;
+}
+
+.btn{
+
+  width: 60px;
+  background-color: #50d0c3;
+  padding: 16px 30px;
+  color: white;
+font-family: monospace;
+float: right;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+margin-top: -100px;
+margin-right: 270px;
+}
+.btn hover {
+  background-color: grey;
+  color: grey;
+}
+
+.boxproj2{
+  width: 210px;
+  height: 370px;
+  background-color: #00AFAA;
+  float: right;
+  margin-top:20px;
+  margin-right: 510px;
+}
+.boxproj2 img {
+  margin-top: 9px;
+  margin-left: 7px;
+}
+
+.proj2text{
+  width: 400px;
+
+  margin-top: 175px;
+  margin-left: 260px;
+}
+
+.btn2{
+
+  width: 60px;
+  background-color: #50d0c3;
+  padding: 16px 30px;
+  color: white;
+font-family: monospace;
+float: right;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+margin-top: 10px;
+margin-right: 340px;
+}
+.btn2 hover {
+  color: grey;
+}
+
+
+
+/*Aboutsidan*/
+#about{
+  height: 800px;
+}
+.abouttext {
+padding-top: 40px;
+  color: #50d0c3;
+}
+.titel{
+  margin-left: 420px;
+}
+.info{
+  float: left;
+  margin-left: 540px;
+  margin-top: -60px;
+}
+.box{
+  width: auto;
+  height: 5px;
+  background-color: #50d0c3;
+  margin-top: 50px;
+}
+.box2{
+  width: auto;
+  height: 5px;
+  background-color: #50d0c3;
+  margin-top: 3px;
+}
+
+.education {
+  margin-left: 420px;
+  margin-top: 130px;
+}
+.educationinfo{
+  margin-left: 540px;
+  margin-top: -40px;
+  width: 490px;
+}
+.volontary{
+  margin-left: 420px;
+  margin-top: 40px;
+}
+
+.volontaryinfo{
+  margin-left: 540px;
+  margin-top: -40px;
+  width: 490px;
+}
+.aboutme{
+  width: 500px;
+  margin-left: 540px;
+}
+.textabout{
+  margin-top: -20px;
+}
+
+/*Contactsidan*/
+#contact{
+  height: 400px;
+  background-color: #00AFAA;
+}
+.contacts{
+padding-top: 0.5px;
+}
+.contacttitel{
+  margin-top: -50px;
+  /*margin-left: 350px;*/
+}
+.contacttitel h4{
+  font-size: 18px;
+  text-align: center;
+}
+.contactinfo{
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*Matchmakingprojekt specifikation*/
+.backbtn{
+  float: right;
+  margin-top: 100px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.backbtn a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.backbtn a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.project1rubrik{
+  padding-top: 40px;
+}
+
+.matchinfo{
+  width: 800px;
+  text-align: justify;
+  margin-left: 320px;
+}
+.Competences{
+  margin-left: 320px;
+}
+.Competences h4{
+  margin-top: 1px;
+}
+
+.programs{
+  float: right;
+  margin-top: -96px;
+  margin-right: 520px;
+}
+.programs h4{
+  margin-top: 1px;
+}
+
+.first{
+margin-left: 260px;
+margin-top: 50px;
+}
+.second{
+  float: right;
+  margin-top: -304px;
+  margin-right: 260px;
+}
+.third{
+  margin-left: 260px;
+  margin-top: 15px;
+}
+.fourth{
+  float: right;
+  margin-top: -304px;
+  margin-right: 260px;
+}
+.fifth{
+  margin-left: 260px;
+  margin-top: 15px;
+}
+.sixth{
+  float: right;
+  margin-top: -304px;
+  margin-right: 260px;
+}
+
+/*ToDo specifikation*/
+.firsttodo{
+  margin-top:50px;
+  margin-left: 340px;
+}
+.secondtodo {
+  margin-left: 520px;
+  margin-top: -304px;
+}
+.thirdtodo{
+  margin-top: -304px;
+  margin-left: 703px;
+}
+.fourthtodo{
+  margin-top: -304px;
+  margin-left: 880px;
+}
+
+/*Fonts*/
+h2{
+  font-family: monospace;
+  color: white;
+  font-size: 90px;
+}
+h3 {
+  font-family: monospace;
+  color: #50d0c3;
+  font-size: 40px;
+  text-align: center;
+}
+h4{
+  font-family: monospace;
+  color: black;
+  font-size: 16px;
+}
+h5{
+  font-family: monospace;
+  color: #50d0c3;
+  font-size: 16px;
+}
+h6 {
+  font-family: monospace;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+h7 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  color: #50d0c3;
+
+}
+
+
+/*Responsiv design*/
+@media screen and (max-width:600px){
+  /*Startsida*/
+  #start{
+    height: 700px;
+  }
+  .navbar a{
+
+font-size: 15px;
+  }
+.boxstart{
+margin-left: auto;
+margin-right: auto;
+  width: 300px;
+}
+
+/*Aboutsidan*/
+
+#about{
+  height: 900px;
+}
+.abouttext {
+text-align: center;
+}
+.aboutme{
+  float:left;
+  margin-left: 30px;
+  margin-top: -20px;
+  width: 450px;
+}
+.titel{
+  float: none;
+margin-left: 0px;
+margin-top: 100px;
+}
+.info{
+  margin-left: 30px;
+  margin-top: -30px;
+  width: 450px;
+}
+.education{
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.educationinfo{
+  margin-top: 0px;
+  margin-left: 30px;
+  width: 450px;
+}
+.volontary{
+
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.volontaryinfo{
+  margin-top: 0px;
+  margin-left: 30px;
+  width: 450px;
+}
+.box{
+margin-top: 50px;
+}
+.box2{
+margin-top: 5px;
+}
+
+/*Projects*/
+#projects{
+  height: 1400px;
+}
+.boxproj1{
+  margin-left: 40px;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxproj1 img {
+  width: 97%;
+  height: auto;
+}
+.proj1text{
+
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.btn{
+  float: left;
+  margin-top: -20px;
+  margin-left: 200px;
+}
+.boxproj2{
+
+float: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 270px;
+}
+.proj2text{
+  float: none;
+margin-left: 60px;
+  margin-top: 0px;
+}
+.btn2{
+  float: left;
+  margin-top: -20px;
+  margin-left: 200px;
+}
+
+
+/*Project 1: Matchmaking specifikation*/
+.matchinfo{
+  float: left;
+  margin-top: -30px;
+  margin-left: 25px;
+  width: 450px;
+}
+.Competences{
+  float: left;
+  margin-top: 0px;
+  margin-left: 50px;
+  width: 200px;
+}
+.programs{
+  float: right;
+margin-right: 60px;
+  margin-top: 0px;
+}
+.first{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+
+}
+
+.second{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.third{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.fourth{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.fifth{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.sixth{
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.firsttodo{
+  float: left;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+.secondtodo{
+  float: left;
+  margin-left: 20px;
+  margin-top: 32px;
+}
+.thirdtodo{
+  float: left;
+  margin-left: -356px;
+  margin-top: 350px;
+}
+.fourthtodo{
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+}
