@@ -1,9 +1,0 @@
-
-Portfolion är inte upplagd än även om det är målet i ett senare skede.
-
-Den är även inte helt responsiv, utan är som bäst endast i helskärm på
-samt i mobilläge.
-
-För att kolla på portfolion:
-Öppna index i filhanteraren, klicka sedan runt där för att navigera
- runt i portfolion.
